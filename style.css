@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0px;
+    font-family: 'Roboto', sans-serif;
+    background-blend-mode: darken;
+    background-image: url(./image/bg.png);
+}
+
+#maincontainer {
+    width: 55%;
+    height: 570px;
+    margin-top: 28PX;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left-side {
+    width: 40%;
+    background-color: #2874f0;
+    height: 100%;
+    padding: 30px;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login p {
+    padding-top: 10px;
+}
+
+.image {
+    margin-bottom: 40px;
+}
+
+#right-side {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    
+
+
+}
+
+form {
+
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.first-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+    font-size: medium;
+}
+
+.first-row>input {
+    height: 50PX;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.808);
+}
+
+.first-row>a {
+    position: relative;
+    left: 20rem;
+    bottom: 3.1rem;
+    width: 11%;
+
+}
+
+a:hover {
+    color: rgb(223, 42, 42);
+
+}
+
+.second-row {
+    margin-top: -40px;
+}
+
+.third-row {
+
+    height: 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.third-row>input {
+    height: 50px;
+    padding: 0.8rem;
+    border: none;
+    cursor: pointer;
+}
+
+.third-row>p{
+text-align: center;
+height: 50px;
+padding: 18px;
+}
+
+.third-row>input:nth-child(1){
+    background-color: orangered;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+}
+.third-row>input:nth-child(3){
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    color: rgb(5, 42, 255);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
